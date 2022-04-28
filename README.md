@@ -167,15 +167,15 @@ before next step and You must login.
 
 ### STEP 16  Create a new user
 
-    sudo adduser dcode-frappe
-    sudo usermod -aG sudo dcode-frappe
-    su - dcode-frappe
+    sudo adduser frappe
+    sudo usermod -aG sudo frappe
+    su - frappe
     
 ### Follow the steps from Step 12 to Step 15
 
 ### Step 17 setup production
     
-    sudo bench setup production dcode-frappe
+    sudo bench setup production frappe
     bench restart
     
   Open the 0.0.0.0 or server IP in web browser and login to production server
